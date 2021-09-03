@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracker", "VehicleTracker.csproj", "{A5280646-3FDA-43D3-A7D6-38070B495765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTrackerConsumer", "..\VehicleTrackerConsumer\VehicleTrackerConsumer.csproj", "{9CC24CA5-103C-44BB-98A6-8C5A704831B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5280646-3FDA-43D3-A7D6-38070B495765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5280646-3FDA-43D3-A7D6-38070B495765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5280646-3FDA-43D3-A7D6-38070B495765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5280646-3FDA-43D3-A7D6-38070B495765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC24CA5-103C-44BB-98A6-8C5A704831B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC24CA5-103C-44BB-98A6-8C5A704831B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC24CA5-103C-44BB-98A6-8C5A704831B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC24CA5-103C-44BB-98A6-8C5A704831B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF879EEA-A23E-4E13-A055-70EB8CF94BB4}
+	EndGlobalSection
+EndGlobal
