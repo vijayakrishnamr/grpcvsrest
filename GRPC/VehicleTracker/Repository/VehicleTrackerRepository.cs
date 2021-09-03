@@ -43,6 +43,7 @@ namespace VehicleTracker.Repository
         public void AddMovement(VehicleMovement vehicleMovement)
         {
             vehicleMovement.Id = Guid.NewGuid();
+            vehicleMovement.Vehicle = _context.Vehicles.FirstOrDefault(v => v.Id == vehicleMovement.Vehicle.Id);
             _context.VehicleMovements.Add(vehicleMovement);
         }
 

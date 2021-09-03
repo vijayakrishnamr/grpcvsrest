@@ -44,12 +44,14 @@ namespace VehicleTracker
         public override Task<DeleteVehicleReply> DeleteVehicle(VehicleMessage request, ServerCallContext context)
         {
             _repository.DeleteVehicle(_mapper.Map<Vehicle>(request));
+            _repository.Save();
             return Task.FromResult(new DeleteVehicleReply { DeletionSuccess = true });
         }
 
         public override Task<CreateVehicleMovementReply> AddMovement(VehicleMovementMessage request, ServerCallContext context)
         {
             _repository.AddMovement(_mapper.Map<VehicleMovement>(request));
+            _repository.Save();
             return Task.FromResult(new CreateVehicleMovementReply { CreationSuccess = true });
         }
     }
